@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+
+  background-color: rgb(9, 189, 196);
+}
+#kunal {
+  position: absolute;
+  top: 8%;
+  left: 12%;
+  transform: translate(-50% -50%);
+  height: 85%;
+  width: 75%;
+  background-color: white;
+  border-radius: 12px;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  /*   background-color: red; */
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+#logo h3 {
+  font-weight: 600;
+  padding-left: 8px;
+  color: black;
+}
+#logo img {
+  padding-left: 25px;
+  height: 40px;
+  width: 90px;
+}
+#lokhande {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 40%;
+  /*   background-color: blue; */
+  margin-right: 70px;
+  color: black;
+}
+#lokhande h5 button {
+  position: absolute;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 60px;
+  height: 90%;
+  top: 2px;
+  margin-right: 100px;
+  border-radius: 19%;
+}
+#kunal p {
+  position: relative;
+  font-size: x-large;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+  top: 27%;
+  left: 9%;
+}
+#kunal p span {
+  color: rgb(9, 189, 196);
+}
+#kunal p1 {
+  width: 50px;
+  position: relative;
+  font-size: large;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+  top: 27%;
+  left: 9%;
+  opacity: 0.5;
+  line-height: 7px;
+  font-size: small;
+}
+#kunal p2 button {
+  position: absolute;
+  top: 70%;
+  left: 12%;
+  background-color: aqua;
+  height: 30px;
+  border-radius: 9px;
+  color: black;
+}
+#g img {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+
+  height: 400px;
+  width: 400px;
+}
